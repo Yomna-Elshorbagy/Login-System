@@ -1,0 +1,26 @@
+body {
+  background-color: #24353f;
+}
+#signUp .container,
+#logIn .container,
+.navbar .container {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+.box {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1 {
+  color: #17a2b8;
+}
+input {
+  background-color: transparent !important;
+  color: #fff;
+}
+input:focus {
+  border-image: linear-gradient(45deg, #ff6ec4, #7873f5) 1;
+}
+.navbar-brand a{
+  text-decoration: none;
+  color: #fff;
+}

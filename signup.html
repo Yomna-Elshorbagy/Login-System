@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="signUp">
+        <div class="container my-5 ">
+          <div class="box m-auto w-75 text-center mt-5 p-5">
+            <h1>Smart Login System</h1>
+            <form id="formSignUp" onsubmit="signUp(event)">
+              <input
+                type="text"
+                id="userName"
+                class="form-control my-4 text-white"
+                placeholder="Enter Your Name"
+                required
+              />
+              <input
+                type="text"
+                id="userEmail"
+                class="form-control my-4 text-white"
+                placeholder="Enter Your Email"
+                required
+              />
+              <input
+                type="password"
+                id="userPassword"
+                class="form-control my-4 text-white"
+                placeholder="Enter Your Password"
+                required
+              />
+              <div id="content"></div>
+              <button class="btn btn-outline-info w-100 my-3" id="signupBtn">Sign Up</button>
+              <p class="text-white">
+                You have an account? <a class="text-white" href="/login.html">Signin</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
